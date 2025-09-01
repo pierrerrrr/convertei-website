@@ -20,7 +20,10 @@ function Header() {
                     {/* logo */}
                     <div className='flex-shrink-0'>
                         <div className='flex items-center'>
-                            <Image src="/logo-convertei-cropped.jpg" alt="logo convertei que ainda preciso recortar" width={150} height={200}></Image>
+                            <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center mr-3">
+                                <span className="text-white font-bold text-lg">C</span>
+                            </div>
+                            <span className="text-xl font-bold tracking-tight">CONVERTEI</span>
                         </div>
                     </div>
 
@@ -31,7 +34,8 @@ function Header() {
                                 <a
                                     key={index}
                                     href={item.href}
-                                    className='text-gray-300 hover:text-white transition-colors duration-200 text-lg'
+                                    className='text-gray-300 hover:text-white transition-colors duration-200 text-lg font-normal'
+                                    style={{ fontWeight: '400' }}
                                 >
                                     {item.label}
                                 </a>
