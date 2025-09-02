@@ -13,7 +13,7 @@ function Header() {
     ]
 
     return (
-        <header className='bg-black text-white'>
+        <header className='bg-stone-950 text-white'>
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                 {/* menu de navegação */}
                 <div className='flex justify-between items-center h-14'>
